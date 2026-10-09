@@ -1,0 +1,5 @@
+timestamp_utc,switch,port,vlan,mac,event
+2026-09-18T09:10:00Z,SW-ACCESS-03,Gi1/0/3,20,02:00:00:00:01:01,baseline-gateway
+2026-09-18T09:14:42Z,SW-ACCESS-03,Gi1/0/18,20,02:00:00:00:66:66,new-mac-learned
+2026-09-18T09:14:45Z,SW-ACCESS-03,Gi1/0/18,20,02:00:00:00:66:66,duplicate-gateway-claim
+2026-09-18T09:21:12Z,SW-ACCESS-03,Gi1/0/18,20,02:00:00:00:66:66,port-disabled-by-analyst
