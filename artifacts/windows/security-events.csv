@@ -1,0 +1,7 @@
+timestamp_utc,host,event_id,account,source_ip,logon_type,detail
+2026-09-18T08:12:31Z,WS-17,4624,elena.morris,10.44.2.17,2,interactive sign-in
+2026-09-18T09:03:12Z,FS-02,4625,svc-backup,10.44.2.17,3,failed network logon
+2026-09-18T09:03:18Z,FS-02,4624,svc-backup,10.44.2.17,3,successful network logon
+2026-09-18T09:05:09Z,FS-02,4672,svc-backup,10.44.2.17,3,special privileges assigned
+2026-09-18T09:08:41Z,FS-02,7045,SYSTEM,10.44.2.17,,new service named WinCacheUpdater
+2026-09-18T10:44:03Z,WS-17,4634,elena.morris,10.44.2.17,2,logoff
