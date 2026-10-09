@@ -1,0 +1,4 @@
+Sep 18 09:16:02 LINUX-JUMP-01 sshd[4201]: Failed password for opsadmin from 10.44.2.32 port 51240 ssh2
+Sep 18 09:16:11 LINUX-JUMP-01 sshd[4203]: Accepted publickey for opsadmin from 10.44.2.32 port 51242 ssh2
+Sep 18 09:16:11 LINUX-JUMP-01 sshd[4203]: pam_unix(sshd:session): session opened for user opsadmin
+Sep 18 09:22:56 LINUX-JUMP-01 sudo: opsadmin : TTY=pts/1 ; PWD=/home/opsadmin ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
