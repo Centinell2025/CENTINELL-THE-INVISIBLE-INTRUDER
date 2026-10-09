@@ -1,0 +1,4 @@
+timestamp_utc,system,account,event,source_ip,detail
+2026-09-18T08:30:00Z,IDP,svc-backup,token-issued,10.44.2.32,scheduled-backup
+2026-09-18T09:02:59Z,IDP,svc-backup,authentication-anomaly,10.44.2.17,unexpected-source
+2026-09-18T09:35:00Z,IDP,svc-backup,session-revoked,10.44.2.32,containment-action
