@@ -1,0 +1,5 @@
+timestamp_utc,host,check,result,notes
+2026-09-18T10:00:00Z,WS-17,disk-image-acquired,yes,original evidence held read-only
+2026-09-18T10:08:00Z,WS-17,credential-rotation,pending,rotate from trusted administration device
+2026-09-18T10:14:00Z,FS-02,service-review,flagged,WinCacheUpdater requires validation before removal
+2026-09-18T10:22:00Z,FS-02,backup-integrity-check,pending,offline backup must be verified before restore
