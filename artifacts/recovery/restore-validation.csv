@@ -1,0 +1,6 @@
+timestamp_utc,asset,control,status,detail
+2026-09-18T11:00:00Z,WS-17,forensic-image,complete,original retained read-only
+2026-09-18T11:30:00Z,WS-17,trusted-reimage,planned,requires operator approval
+2026-09-18T11:45:00Z,FS-02,offline-backup-hash,pending,hash comparison not yet performed
+2026-09-18T12:00:00Z,IOT-GW-01,vendor-firmware-signature,pending,verification required
+2026-09-18T12:10:00Z,SENSOR-07,telemetry-test,pending,verify after gateway restoration
