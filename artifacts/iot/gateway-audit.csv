@@ -1,0 +1,4 @@
+timestamp_utc,device,actor,action,old_value,new_value
+2026-09-18T09:17:01Z,IOT-GW-01,unknown,change_dns,10.44.4.53,10.44.2.66
+2026-09-18T09:18:10Z,IOT-GW-01,unknown,disable_telemetry,true,false
+2026-09-18T09:24:00Z,IOT-GW-01,maintenance,record_state,altered,quarantined
