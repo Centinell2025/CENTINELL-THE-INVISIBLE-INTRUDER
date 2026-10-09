@@ -1,32 +1,60 @@
 # CENTINELL — THE INVISIBLE INTRUDER
 
-> **BEACON OF THE EAGLE LLC**  
-> **CENTINELL SUITE DEFENSE**  
-> Cybersecurity • Digital Forensics • Incident Response  
-> © 2026 Beacon of the Eagle LLC. All rights reserved.  
-> [Official publisher attribution and ownership](BEACON-OWNERSHIP.md)
+**BEACON OF THE EAGLE LLC** · **CENTINELL SUITE DEFENSE**  
+Cybersecurity · Digital Forensics · Incident Response  
+© 2026 Beacon of the Eagle LLC. All rights reserved.
 
+> **Academic-style DFIR training collection · 50 fictional case blueprints · In development**
+>
+> This repository is **not** an approved HTB Sherlock, a validated collection of 50 playable labs, or a deployed endpoint protection product.
 
-**Sherlock-style DFIR training scenario | Proposed difficulty: Hard | Status: Development**
+## Start here
 
-A skilled intruder has been operating inside a fictional enterprise network using valid credentials and legitimate administration tools. Analysts must correlate Windows, Linux, DNS, and firewall telemetry to identify initial access, lateral movement, persistence, and the scope of compromise.
+| Reader | Where to go | Time |
+| --- | --- | --- |
+| HTB reviewer / content evaluator | [Submission candidate](htb-ready/README.md) | 2 min |
+| Training coordinator | [50-case catalog](CATALOG.md) | 3 min |
+| Student / analyst | [Main incident brief](scenario/incident-brief.md) and [evidence](artifacts/) | Self-paced |
+| Instructor / QA | [Validation status](htb-ready/validation-report.md) and [audit](htb-ready/instructor-audit.md) | 5 min |
 
-## Learning objectives
-- Reconstruct an evidence-backed intrusion timeline.
-- Distinguish suspicious behavior from ordinary administration.
-- Correlate Windows event IDs with SSH and firewall traces.
-- Recommend practical containment and remediation steps.
+## What problem does it address?
 
-## Training environment
-All organizations, individuals, infrastructure, IP addresses, and events are fictional. No real systems are targeted. This repository contains a **starter case**, not an approved or independently validated Hack The Box Sherlock.
+Analysts learn to find suspicious activity that may not trigger a conventional antivirus alert, reconstruct events using independent sources, preserve evidence, contain only verified scope, and plan safe recovery. The training focuses on **analysis and judgment**, not automatic attacker blocking, remote power control, or production security enforcement.
 
-## Student workflow
-1. Read `scenario/incident-brief.md`.
-2. Inspect the evidence in `artifacts/`.
-3. Answer `questions/investigation-questions.md` with precise timestamps and supporting log lines.
-4. Record a defensible timeline and containment proposal.
+## One fictional enterprise, one continuing story
 
-**Instructor answers are intentionally not published in this repository.**
+The core synthetic incident includes unusual service-account activity, a new Windows service, conflicting gateway ARP observations, an unexpected DNS responder, and an IoT gateway configuration change. Students must separate observed facts from assumptions: the artifacts do **not** independently prove attacker identity, exfiltration, a single causal chain, or completed restoration.
 
-## Submission readiness
-Before HTB submission: enrich evidence, verify each question has one reproducible answer, perform independent playtesting, and prepare a separate private instructor walkthrough and grading material.
+## Academic progression
+
+| Level | Focus | Case allocation |
+| --- | --- | --- |
+| 100 — Foundations | Evidence, timestamps, identity and baseline analysis | See catalog |
+| 200 — Applied investigations | Windows, Linux, email and networks | See catalog |
+| 300 — Advanced DFIR | Correlation, lateral movement and persistence | See catalog |
+| 400 — Enterprise specialties | Cloud, IoT, web and perimeter | See catalog |
+| 500 — Expert response | Multistage investigation, recovery and resilience | See catalog |
+
+**Levels are curriculum tags, not verified HTB difficulty ratings.** Cases can be cross-listed by learning objective without moving or duplicating files.
+
+## Lightweight structure
+
+- `CATALOG.md`: concise index of the ten areas and 50 case outlines.
+- `labs/`: existing case blueprints, organized by topic; no duplicate level folders.
+- `scenario/`, `artifacts/`, `questions/`: current synthetic incident and student evidence.
+- `htb-ready/`: focused candidate and transparent quality gates.
+- `playbooks/`: authorized defensive investigation and recovery guidance.
+
+## Current state and next quality gates
+
+**Completed:** repository structure, 50 documented scenario outlines, core synthetic logs, focused candidate questions, instructor audit and recovery guidance.
+
+**Not completed/verified:** 50 independent playable evidence packages; unique-answer checks for each case; private instructor walkthrough; final artifact checksums; independent blind playtests; HTB approval or payment.
+
+We will strengthen the **existing** candidate first, then promote additional cases only when evidence, questions, answers and playtesting meet the same standard. Keep instructor answers private.
+
+## Rights and ethics
+
+All companies, people, accounts and incident events inside the training scenario are fictional. Authorized defensive analysis only. [Publisher and ownership statement](BEACON-OWNERSHIP.md). Any external submission or licensing must follow the recipient's current terms.
+
+**Repository:** https://github.com/Centinell2025/CENTINELL-THE-INVISIBLE-INTRUDER
