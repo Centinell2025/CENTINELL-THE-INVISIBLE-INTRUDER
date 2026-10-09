@@ -1,0 +1,4 @@
+timestamp_utc,ip,mac,hostname,lease_status
+2026-09-18T08:00:00Z,10.44.2.17,02:00:00:00:17:17,WS-17,active
+2026-09-18T08:00:00Z,10.44.2.32,02:00:00:00:32:32,FS-02,active
+2026-09-18T09:13:55Z,10.44.2.66,02:00:00:00:66:66,unknown-client,active
