@@ -18,3 +18,9 @@ For each case, preserve evidence, identify scope and impact, contain safely, era
 
 ## Shared safety requirements
 Authorized scope only; no offensive instructions. Record SHA-256 evidence hashes, chain of custody, UTC timeline, recovery point objective, and explicit approvals before changes.
+
+## Additional investigative and recovery framework
+
+For each of the five scenarios: document the first UTC indicator, identify affected users and devices, preserve original evidence with SHA-256 and chain of custody, corroborate with a second independent log source, and record alternative explanations. Contain using approved least-disruptive isolation, revoke compromised access, correct the verified root cause, and rebuild from trusted media when integrity cannot be established. Protect offline/immutable backups, test restore in isolation, compare file hashes and transaction counts, and reconnect only after owner approval. **Zero data loss cannot be guaranteed without verified recovery coverage.**
+
+© 2026 Beacon of the Eagle LLC. All rights reserved.
