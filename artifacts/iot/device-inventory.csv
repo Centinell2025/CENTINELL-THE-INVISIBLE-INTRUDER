@@ -1,0 +1,3 @@
+device_id,ip,model,firmware_expected,firmware_observed,config_backup_utc,observed_state
+IOT-GW-01,10.44.4.1,fictional-edge-gateway,3.2.1,3.2.1,2026-09-17T23:00:00Z,dns-resolver-changed
+SENSOR-07,10.44.4.27,fictional-temp-sensor,1.8.4,1.8.4,2026-09-17T23:05:00Z,telemetry-intermittent
