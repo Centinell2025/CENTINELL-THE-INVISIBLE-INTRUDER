@@ -1,0 +1,4 @@
+timestamp_utc,host,resolver_ip,query,response_ip,notes
+2026-09-18T09:10:00Z,WS-17,10.44.2.53,updates.example.org,192.0.2.44,baseline synthetic response
+2026-09-18T09:15:08Z,WS-17,10.44.2.66,updates.example.org,203.0.113.66,unexpected resolver and changed answer
+2026-09-18T09:19:30Z,WS-17,10.44.2.53,updates.example.org,192.0.2.44,expected resolver restored
