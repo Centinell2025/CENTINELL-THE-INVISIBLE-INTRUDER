@@ -1,5 +1,12 @@
 # CENTINELL — THE INVISIBLE INTRUDER
 
+> **BEACON OF THE EAGLE LLC**  
+> **CENTINELL SUITE DEFENSE**  
+> Cybersecurity • Digital Forensics • Incident Response  
+> © 2026 Beacon of the Eagle LLC. All rights reserved.  
+> [Official publisher attribution and ownership](BEACON-OWNERSHIP.md)
+
+
 **Sherlock-style DFIR training scenario | Proposed difficulty: Hard | Status: Development**
 
 A skilled intruder has been operating inside a fictional enterprise network using valid credentials and legitimate administration tools. Analysts must correlate Windows, Linux, DNS, and firewall telemetry to identify initial access, lateral movement, persistence, and the scope of compromise.
