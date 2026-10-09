@@ -1,0 +1,4 @@
+timestamp_utc,host,query,result_ip
+2026-09-18T08:10:01Z,WS-17,updates.example.org,192.0.2.44
+2026-09-18T09:26:51Z,LINUX-JUMP-01,telemetry.example.net,203.0.113.45
+2026-09-18T09:31:59Z,LINUX-JUMP-01,telemetry.example.net,203.0.113.45
