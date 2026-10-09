@@ -1,0 +1,5 @@
+timestamp_utc,sensor,claimed_ip,observed_mac,interface,observation
+2026-09-18T09:11:02Z,SW-ACCESS-03,10.44.2.1,02:00:00:00:01:01,Gi1/0/3,baseline gateway mapping
+2026-09-18T09:14:45Z,SW-ACCESS-03,10.44.2.1,02:00:00:00:66:66,Gi1/0/18,conflicting gateway ARP advertisement
+2026-09-18T09:14:51Z,WS-17,10.44.2.1,02:00:00:00:66:66,eth0,gateway cache changed
+2026-09-18T09:20:02Z,SW-ACCESS-03,10.44.2.1,02:00:00:00:01:01,Gi1/0/3,baseline mapping observed again
