@@ -1,0 +1,2 @@
+case_id,evidence_id,artifact_path,sha256,acquired_utc,collector,source_system,transfer_utc,recipient,storage_location,notes
+SIM-INV-02,EV-001,artifacts/network/arp-observations.csv,,2026-09-18T12:30:00Z,training-analyst,SW-ACCESS-03,,,,Synthetic sample; hash must be calculated from exact downloaded bytes
