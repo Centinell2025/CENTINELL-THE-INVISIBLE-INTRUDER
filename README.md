@@ -58,3 +58,7 @@ We will strengthen the **existing** candidate first, then promote additional cas
 All companies, people, accounts and incident events inside the training scenario are fictional. Authorized defensive analysis only. [Publisher and ownership statement](BEACON-OWNERSHIP.md). Any external submission or licensing must follow the recipient's current terms.
 
 **Repository:** https://github.com/Centinell2025/CENTINELL-THE-INVISIBLE-INTRUDER
+
+
+---
+**Ethical and educational use / Uso ético y educativo:** This is a fictional or simulated defensive cybersecurity training exercise. Test only systems you own or are explicitly authorized to assess. / Ejercicio de ciberseguridad defensiva ficticio o simulado. Realice pruebas solo en sistemas propios o con autorización expresa. See / Consulte [Educational Purpose Notice](EDUCATIONAL_PURPOSE_NOTICE.md).
